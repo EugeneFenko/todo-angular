@@ -6,7 +6,7 @@ import { PersonInputComponent } from './person/input/person-input.component';
 const routes: Routes = [
   { path: '', component: PersonComponent},
   { path: 'add', component: PersonInputComponent}
-]
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

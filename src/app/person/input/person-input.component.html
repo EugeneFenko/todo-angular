@@ -1,0 +1,14 @@
+<app-header></app-header>
+
+<mat-card>
+  <h2>Add Task</h2>
+  <article>
+    <mat-form-field>
+      <input matInput placeholder="Your task" type="text" (keydown.enter)="addUser()" [(ngModel)]="enteredName">
+    </mat-form-field>
+    <button mat-button type="button" (click)="addUser()">
+      <mat-icon>send</mat-icon>
+    </button>
+  </article>
+</mat-card>
+

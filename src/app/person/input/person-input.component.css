@@ -1,0 +1,13 @@
+article{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  text-align: center;
+}
+
+mat-form-field {
+  width: 100%;
+}

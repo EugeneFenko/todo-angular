@@ -1,0 +1,17 @@
+<app-header></app-header>
+<mat-card>
+  <h1>ToDo List</h1>
+  <mat-list class="list">
+    <mat-list-item *ngFor="let user of personList">
+      <div class="wrap">
+        <span>{{user}}</span>
+        <mat-icon class="del" (click)="removePerson(user)">delete</mat-icon>
+      </div>
+    </mat-list-item>
+  </mat-list>
+  <mat-card-actions *ngIf="personList == []">
+    <mat-icon>add</mat-icon>
+  </mat-card-actions>
+</mat-card>
+
+

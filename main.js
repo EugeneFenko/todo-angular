@@ -44,8 +44,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [
-    { path: '', component: _person_person_component__WEBPACK_IMPORTED_MODULE_3__["PersonComponent"] },
-    { path: 'add', component: _person_input_person_input_component__WEBPACK_IMPORTED_MODULE_4__["PersonInputComponent"] }
+    { path: 'todo-angular/', component: _person_person_component__WEBPACK_IMPORTED_MODULE_3__["PersonComponent"] },
+    { path: 'todo-angular/add', component: _person_input_person_input_component__WEBPACK_IMPORTED_MODULE_4__["PersonInputComponent"] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
